@@ -4,6 +4,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+
 // Para trabalhar com formulários no Angular 12
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
@@ -37,6 +38,8 @@ import { LoginComponent } from './componens/login/login.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
     // Requisições http
     HttpClientModule,
     // Angular Material
