@@ -1,3 +1,4 @@
+import { ToastrModule } from 'ngx-toastr';
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -57,6 +58,11 @@ import { LoginComponent } from './componens/login/login.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      closeButton: true,
+      progressBar: true
+    })
   ],
   providers: [],
   bootstrap: [AppComponent],
